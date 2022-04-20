@@ -1,14 +1,35 @@
-Google Glass
-A revolução do Google está chegando
-
-[AQUI ENTRA UMA FOTO]
-
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<!doctype html>
+<html>
+	<head>
+		<title> Home Page </title>
+		<meta charset ="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+		<script src="_javascript/funcoes.js"></script>
+	</head>
+	<body>
+		<div id="container">
+		
+		<header id="cabecalho"> 
+			<hgroup>
+				<h1>Google Glass</h1>
+				<h2>A revolução do Google está chegando</h2>
+			</hgroup>
+			<figure>
+				<figcaption>
+					<img src="_imagens/especificacoes.png" id="icone">
+				</figcaption>
+			</figure>
+			<nav id="menu">	
+				<h1>Menu Principal</h1>
+					<ul type="square">
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html">Home</a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html" target="_blank">Especificações</a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fotos.html" target="_blank">Fotos</a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="multimidia.html" target="_blank">Multimídia</a></li> 
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fale-conosco.html" target="_blank">Fale conosco</a></li>
+					</ul>
+			</nav>
+		</header>
 
 Glass > Especificações
 Raio-X no Google Glass
@@ -18,6 +39,10 @@ Atualizado em 01/Maio/2013
 Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
 
 [AQUI ENTRA UMA IMAGEM]
-
-Copyright 2013 - by Gustavo Guanabara<
-Facebook | Twitter
+		<footer id="rodape">
+		<p>Copyright 2013 - by Gustavo Guanabara<br>
+		Facebook | Twitter</a>
+		</footer>
+ 		</div>
+	</body>
+</html>
