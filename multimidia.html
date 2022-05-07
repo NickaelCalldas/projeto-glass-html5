@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
 	<head>
-		<title> Home Page </title>
+		<title> Multimedia </title>
 		<meta charset ="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+		<link rel="stylesheet" type="text/css" href="_css/media.css"/>
 		<script src="_javascript/funcoes.js"></script>
 	</head>
 	<body>
@@ -30,20 +31,34 @@
 					</ul>
 			</nav>
 		</header>
-
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
-
-
-Áudio e Vídeo
-
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
-<footer id="rodape">
-<p>Copyright 2013 - by Gustavo Guanabara<br>
-Facebook | Twitter</a>
+		<section id="corpo-full">
+		
+			<article id="noticiaprinc">
+			<header id="cabecalhoart">
+				<hgroup>
+					<h3>Glass > Multimídia</h3>
+					<h1>Sons e Vídeos</h1>
+					<h2>por Gustavo Guanabara</h2>
+					<h3 class="dir">Atualizado em 01/Maio/2013</h3>
+				</hgroup>
+		</header>
+		<div id="tv-radio">
+			<audio id="musica" controls="controls">
+				<source src="_media/audio1.mp3" type="audio/mpeg"/>
+			</audio>
+			<!--<video id="filme" controls="controls"poster="_imagens/video-mini03.jpg">
+				<source src="_media/video1.mp4" type="video/mp4">
+				
+				</video>-->
+				
+			
+			<iframe id="filme" width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+			</article>
+		</section>
+		<footer id="rodape">
+		<p>Copyright 2013 - by Gustavo Guanabara<br>
+			Facebook | Twitter</a>
 		</footer>
  		</div>
 	</body>
